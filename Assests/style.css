@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #5a0071;
     color: #fff;
     padding: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -33,29 +33,42 @@ header nav li{
     width:100%;
     height: 50%;
     background-image: none;
-    display: block;
+    display:flex ;
+    flex-wrap: wrap;
 }
-main {
-    max-width: auto;
-    margin: 0 auto;
-    padding: 20px;
-    border: 5px solid #7f32de;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #333;
-    display: flex;
-    text-align: center;
-}
+.benefits{
+    
+    padding: 100px;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(163, 161, 161);
+    border-right: 10px solid #5a0071;
+    }
+.benefit-lead { /*made one catagory for lead line 90*/
+        margin-bottom: 32px;
+        color: #ffffff;
+    }
+.benefit-lead h3 { /*made one catagory for h3 line 94*/
+        margin-bottom: 10px;
+        text-align: center;
+    }
+.benefit-lead img { /*made one catagory for img line 98 */
+        display: block;
+        margin: 10px auto;
+        max-width: 150px;
+    }
 
 .repository {
-
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     background-color: #b313c8;
     color: #fff;
-    text-decoration: none;
     border: 1px solid #5a0071;
     border-radius: 5px;
-    margin: 10px;
-    transition: background-color 0.3s;
+    margin: 10px 10px 10px 10px;
+    transition: background-color 0.9s;
+    display: flex;
+    height: 110px;
+    width: auto;
 }
 .repository:hover {
     background-color: #5a0071;
@@ -64,9 +77,9 @@ main {
     margin: 0;
 }
 
-.repository a {
+/* .repository a { 
     display: block;
     margin-top: 10px;
     text-decoration: none;
     color: #f8f9f9;
-}
+}*/
