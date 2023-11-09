@@ -94,8 +94,6 @@ p{
     grid-template-columns: repeat(3, 1fr) ;
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-    /* height: 110px; */
-     /* width: auto;  */
 }
 .repository:hover {
     background-color: #5a0071;
